@@ -4,15 +4,19 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "echo 'No build step required'",
+    "build": "next build",
+    "dev": "next dev --hostname 0.0.0.0 --port 3000",
     "start": "pm2-runtime start ecosystem.config.cjs",
+    "start:web": "node server.js",
     "start:daemon": "pm2 start ecosystem.config.cjs",
     "pm2:reload": "pm2 reload ecosystem.config.cjs --update-env",
     "pm2:stop": "pm2 delete raidguild-agent-web-starter",
     "pm2:logs": "pm2 logs raidguild-agent-web-starter --lines 100"
   },
   "dependencies": {
-    "express": "^5.1.0",
-    "pm2": "^6.0.8"
+    "next": "^15.3.1",
+    "pm2": "^6.0.8",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
   }
 }
