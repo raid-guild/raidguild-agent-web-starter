@@ -1,5 +1,5 @@
 {
-  "name": "raidguild-web-agent-starter",
+  "name": "full-stack-agent-starter",
   "version": "0.1.0",
   "private": true,
   "type": "module",
@@ -10,8 +10,8 @@
     "start:web": "node server.js",
     "start:daemon": "pm2 start ecosystem.config.cjs",
     "pm2:reload": "pm2 reload ecosystem.config.cjs --update-env",
-    "pm2:stop": "pm2 delete raidguild-agent-web-starter",
-    "pm2:logs": "pm2 logs raidguild-agent-web-starter --lines 100"
+    "pm2:stop": "pm2 delete full-stack-agent-starter",
+    "pm2:logs": "pm2 logs full-stack-agent-starter --lines 100"
   },
   "dependencies": {
     "better-sqlite3": "^12.4.1",

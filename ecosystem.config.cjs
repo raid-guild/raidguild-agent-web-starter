@@ -1,7 +1,7 @@
 module.exports = {
   apps: [
     {
-      name: "raidguild-agent-web-starter",
+      name: "full-stack-agent-starter",
       script: "./server.js",
       instances: 1,
       exec_mode: "fork",

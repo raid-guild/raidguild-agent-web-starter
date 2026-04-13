@@ -17,6 +17,6 @@ app.prepare().then(() => {
 
     handle(req, res);
   }).listen(port, host, () => {
-    console.log(`raidguild-agent-web-starter listening on ${host}:${port}`);
+    console.log(`full-stack-agent-starter listening on ${host}:${port}`);
   });
 });

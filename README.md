@@ -1,4 +1,4 @@
-# Raid Guild Agent Web Starter
+# Full-Stack Agent Starter
 
 This repo is a minimal Next.js template for the Pinata Agents hosting platform, adapted into a small full-stack tutorial starter.
 

@@ -1,7 +1,7 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Raid Guild Agent Web Starter",
+  title: "Full-Stack Agent Starter",
   description: "Next.js starter with a SQLite todo tutorial for a Pinata-hosted agent."
 };
 

@@ -2,13 +2,13 @@
   "$schema": "https://agents.pinata.cloud/schemas/manifest.v1.json",
   "version": 1,
   "agent": {
-    "name": "Simple Hosted Agent Template",
-    "description": "Minimal starter for a Pinata-hosted agent with one public web route",
+    "name": "Full-Stack Agent Starter",
+    "description": "Full-stack starter for a Pinata-hosted agent with web UI, API routes, and persistence",
     "emoji": "🤖",
     "vibe": "Clear, practical, and easy to customize"
   },
   "template": {
-    "slug": "simple-hosted-agent-template",
+    "slug": "full-stack-agent-starter",
     "category": "general",
     "authorName": "Raid Guild",
     "tags": ["raidguild", "starter", "pinata", "agent", "web"]
